@@ -1,7 +1,7 @@
 let weather = {
   "apiKey":"09d3b9d070d4be6e1445532ccd48e9be",
   fetchWeather: function(city) {
-    //ver se funciona em todas cidades do mundo// 
+    
     fetch("https://api.openweathermap.org/data/2.5/weather?q="
     + city
       + "&units=metric&appid=" 
